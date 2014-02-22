@@ -1,0 +1,151 @@
+.orbits {
+    border-width: 1px;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 50%;
+}
+
+#sun, #mercurydiv, #venusdiv, #earthdiv,
+#marsdiv, #jupiterdiv, #saturndiv,
+#uranusdiv, #neptunediv, #plutodiv{
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+}
+
+#mercurydiv {
+
+    width: 2500px;
+    height: 2500px;
+
+    margin-left: -1250px;
+    margin-top: -250px;
+
+    animation: orbit 10s linear infinite normal 1s;
+    -moz-animation: orbit 10s linear infinite normal 1s;
+    -webkit-animation: orbit 10s linear infinite normal 1s;
+}
+
+#venusdiv {
+    width: 3000px;
+    height: 3000px;
+
+    margin-left: -1500px;
+    margin-top: -500px;
+
+    animation: orbit 15s linear infinite normal 1s;
+    -moz-animation: orbit 15s linear infinite normal 1s;
+    -webkit-animation: orbit 15s linear infinite normal 1s;
+}
+
+#earthdiv {
+    width: 3500px;
+    height: 3500px;
+
+    margin-left: -1750px;
+    margin-top: -750px;
+
+    animation: orbit 20s linear infinite normal 1s;
+    -moz-animation: orbit 20s linear infinite normal 1s;
+    -webkit-animation: orbit 20s linear infinite normal 1s;
+}
+
+#marsdiv {
+    width: 4000px;
+    height: 4000px;
+
+    margin-left: -2000px;
+    margin-top: -1000px;
+
+    animation: orbit 25s linear infinite normal 1s;
+    -moz-animation: orbit 25s linear infinite normal 1s;
+    -webkit-animation: orbit 25s linear infinite normal 1s;
+}
+
+#jupiterdiv {
+    width: 4500px;
+    height: 4500px;
+
+    margin-left: -2250px;
+    margin-top: -1250px;
+
+    animation: orbit 30s linear infinite normal 1s;
+    -moz-animation: orbit 30s linear infinite normal 1s;
+    -webkit-animation: orbit 30s linear infinite normal 1s;
+}
+
+#saturndiv {
+    width: 5000px;
+    height: 5000px;
+
+    margin-left: -2500px;
+    margin-top: -1500px;
+
+    animation: orbit 35s linear infinite normal 1s;
+    -moz-animation: orbit 35s linear infinite normal 1s;
+    -webkit-animation: orbit 35s linear infinite normal 1s;
+}
+
+#uranusdiv {
+    width: 5500px;
+    height: 5500px;
+
+    margin-left: -2750px;
+    margin-top: -1750px;
+
+    animation: orbit 40s linear infinite normal 1s;
+    -moz-animation: orbit 40s linear infinite normal 1s;
+    -webkit-animation: orbit 40s linear infinite normal 1s;
+}
+
+#neptunediv {
+    width: 6000px;
+    height: 6000px;
+
+    margin-left: -3000px;
+    margin-top: -2000px;
+
+    animation: orbit 45s linear infinite normal 1s;
+    -moz-animation: orbit 45s linear infinite normal 1s;
+    -webkit-animation: orbit 45s linear infinite normal 1s;
+}
+
+#plutodiv {
+    width: 6500px;
+    height: 6500px;
+
+    margin-left: -3250px;
+    margin-top: -2250px;
+    margin-bottom: 200px;
+
+    animation: orbit 50s linear infinite normal 1s;
+    -moz-animation: orbit 50s linear infinite normal 1s;
+    -webkit-animation: orbit 50s linear infinite normal 1s;
+}
+
+@keyframes orbit{
+    0%{
+        transform:scale(1) rotate(0deg);
+    }
+    100%{
+        transform:scale(1) rotate(360deg);
+    }
+}
+@-moz-keyframes orbit{
+    0%{
+        -moz-transform:scale(1) rotate(0deg);
+    }
+    100%{
+        -moz-transform:scale(1) rotate(360deg);
+    }
+}
+@-webkit-keyframes orbit{
+    0%{
+        -webkit-transform:scale(1) rotate(0deg);
+    }
+    100%{
+        -webkit-transform:scale(1) rotate(360deg);
+    }
+}
