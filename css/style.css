@@ -4,16 +4,16 @@ body {
     zoom: 0.1;
 }
 
-#container {
-    margin: auto auto auto auto;
+#planetcontainer {
+   position: absolute;
+   padding: 0 50% 50% 50%;
 }
 
 #sun, #mercury, #venus,
 #earth, #mars, #jupiter,
 #saturn, #uranus, #neptune, #pluto{
-    position: absolute;
 
-    top: 0;
+    position: absolute;
     left: 50%;
 }
 
