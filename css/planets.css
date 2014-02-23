@@ -12,13 +12,22 @@
     left: 50%;
 }
 
+.zoom {
+    z-index: 1000
+}
+
+.zoom:hover {
+    transform: scale(2, 2);
+    z-index: 1001;
+}
+
 #sun {
     position: absolute;
     top: 50%;
     left: 50%;
     height: 2000px;
     width: 2000px;
-    zoom: .1;
+    zoom: .2;
 
     border-radius: 50%;
 

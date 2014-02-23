@@ -4,7 +4,7 @@
     border-radius: 50%;
     top: 50%;
     left: 50%;
-    zoom: .1;
+    zoom: .2;
 }
 
 #mercurydiv {
@@ -116,27 +116,27 @@
     -webkit-animation: orbit 50s linear infinite normal 1s;
 }
 
-@keyframes orbit{
-    0%{
-        transform: rotateZ(0deg);
-    }
-    100%{
-        transform: rotateZ(-360deg);
-    }
-}
-@-moz-keyframes orbit{
-    0%{
-        -moz-transform: rotateZ(0deg);
-    }
-    100%{
-        -moz-transform: rotateZ(360deg);
-    }
-}
-@-webkit-keyframes orbit{
-    0%{
-        -webkit-transform: rotateZ(0deg);
-    }
-    100%{
-        -webkit-transform: rotateZ(360deg);
-    }
-}
+/*@keyframes orbit{*/
+    /*0%{*/
+        /*transform: rotateZ(0deg);*/
+    /*}*/
+    /*100%{*/
+        /*transform: rotateZ(-360deg);*/
+    /*}*/
+/*}*/
+/*@-moz-keyframes orbit{*/
+    /*0%{*/
+        /*-moz-transform: rotateZ(0deg);*/
+    /*}*/
+    /*100%{*/
+        /*-moz-transform: rotateZ(360deg);*/
+    /*}*/
+/*}*/
+/*@-webkit-keyframes orbit{*/
+    /*0%{*/
+        /*-webkit-transform: rotateZ(0deg);*/
+    /*}*/
+    /*100%{*/
+        /*-webkit-transform: rotateZ(360deg);*/
+    /*}*/
+/*}*/
