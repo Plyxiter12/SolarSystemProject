@@ -7,7 +7,7 @@
 }
 
 #side-navbar:hover {
-    margin: 0;
+    margin-left: -5%;
     transition: all 1s ease;
 }
 #planets-list {
@@ -18,17 +18,18 @@
     font-family: 'Michroma', sans-serif;
     color: ghostwhite;
     list-style-type: none;
-    z-index: 20
+    z-index: 20;
 }
 
-.planets {
-    padding: 10px 0 10px 0;
+.planet-text {
+    margin-top: 30px;
+    text-align: center;
 }
-
 .bar {
     position: absolute;
     height: 1px;
     background-color: grey;
     width: 50%;
-    margin: -10px 0 -10px 0;
+    left: 33%;
 }
+

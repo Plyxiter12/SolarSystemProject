@@ -8,7 +8,6 @@
 #sun, #mercury, #venus,
 #earth, #mars, #jupiter,
 #saturn, #uranus, #neptune, #pluto{
-
     position: absolute;
     left: 50%;
 }
