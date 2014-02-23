@@ -8,8 +8,8 @@
 #uranusdiv, #neptunediv, #plutodiv{
 
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 50%;
 }
 
 #mercurydiv {
