@@ -22,14 +22,18 @@
 
 .planet-text {
     margin-top: 30px;
+    margin-left: 0;
     font-family: 'Michroma', sans-serif;
     color: ghostwhite;
     text-align: left;
-    border: 0 solid grey;
+    opacity: 1;
+    transition: all .3s ease;
 }
 
 .planet-text:hover {
-    border-bottom: 1px solid grey;
+    margin-left: 20px;
     cursor: pointer;
+    color: gold;
+    transition: all .3s ease;
 }
 

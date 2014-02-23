@@ -1,8 +1,9 @@
 #solarsystem {
-   position: relative;
-   padding-left: 50%;
-   padding-top: 50%;
-   z-index: 2;
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
    zoom: .1;
 }
 
