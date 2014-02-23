@@ -4,6 +4,7 @@
     border-radius: 50%;
     top: 50%;
     left: 50%;
+    zoom: .1;
 }
 
 #mercurydiv {
@@ -12,7 +13,7 @@
     height: 2500px;
 
     margin-left: -1250px;
-    margin-top: -250px;
+    margin-top: -1250px;
 
     animation: orbit 10s linear infinite normal 1s;
     -moz-animation: orbit 10s linear infinite normal 1s;
@@ -24,7 +25,7 @@
     height: 3000px;
 
     margin-left: -1500px;
-    margin-top: -500px;
+    margin-top: -1500px;
 
     animation: orbit 15s linear infinite normal 1s;
     -moz-animation: orbit 15s linear infinite normal 1s;
@@ -36,7 +37,7 @@
     height: 3500px;
 
     margin-left: -1750px;
-    margin-top: -750px;
+    margin-top: -1750px;
 
     animation: orbit 20s linear infinite normal 1s;
     -moz-animation: orbit 20s linear infinite normal 1s;
@@ -48,7 +49,7 @@
     height: 4000px;
 
     margin-left: -2000px;
-    margin-top: -1000px;
+    margin-top: -2000px;
 
     animation: orbit 25s linear infinite normal 1s;
     -moz-animation: orbit 25s linear infinite normal 1s;
@@ -60,7 +61,7 @@
     height: 4500px;
 
     margin-left: -2250px;
-    margin-top: -1250px;
+    margin-top: -2250px;
 
     animation: orbit 30s linear infinite normal 1s;
     -moz-animation: orbit 30s linear infinite normal 1s;
@@ -72,7 +73,7 @@
     height: 5000px;
 
     margin-left: -2500px;
-    margin-top: -1500px;
+    margin-top: -2500px;
 
     animation: orbit 35s linear infinite normal 1s;
     -moz-animation: orbit 35s linear infinite normal 1s;
@@ -84,7 +85,7 @@
     height: 5500px;
 
     margin-left: -2750px;
-    margin-top: -1750px;
+    margin-top: -2750px;
 
     animation: orbit 40s linear infinite normal 1s;
     -moz-animation: orbit 40s linear infinite normal 1s;
@@ -96,7 +97,7 @@
     height: 6000px;
 
     margin-left: -3000px;
-    margin-top: -2000px;
+    margin-top: -3000px;
 
     animation: orbit 45s linear infinite normal 1s;
     -moz-animation: orbit 45s linear infinite normal 1s;
@@ -108,7 +109,7 @@
     height: 6500px;
 
     margin-left: -3250px;
-    margin-top: -2250px;
+    margin-top: -3250px;
 
     animation: orbit 50s linear infinite normal 1s;
     -moz-animation: orbit 50s linear infinite normal 1s;

@@ -1,5 +1,6 @@
 #side-navbar {
-    position: absolute;
+    position: fixed;
+    top: 0;
     height: 100%;
     width: 200px;
     margin: 0 -180px 0;
@@ -21,9 +22,10 @@
 }
 
 .planet-text {
-    margin-top: 30px;
+    margin-top: 15%;
     margin-left: 0;
     font-family: 'Michroma', sans-serif;
+    font-size: 100%;
     color: ghostwhite;
     text-align: left;
     opacity: 1;
