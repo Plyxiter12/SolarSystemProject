@@ -13,7 +13,6 @@
 
     margin-left: -1250px;
     margin-top: -250px;
-    z-index: 10;
 
     animation: orbit 10s linear infinite normal 1s;
     -moz-animation: orbit 10s linear infinite normal 1s;
@@ -26,7 +25,6 @@
 
     margin-left: -1500px;
     margin-top: -500px;
-    z-index: 11;
 
     animation: orbit 15s linear infinite normal 1s;
     -moz-animation: orbit 15s linear infinite normal 1s;
@@ -39,7 +37,6 @@
 
     margin-left: -1750px;
     margin-top: -750px;
-    z-index: 12;
 
     animation: orbit 20s linear infinite normal 1s;
     -moz-animation: orbit 20s linear infinite normal 1s;
@@ -52,7 +49,6 @@
 
     margin-left: -2000px;
     margin-top: -1000px;
-    z-index: 13;
 
     animation: orbit 25s linear infinite normal 1s;
     -moz-animation: orbit 25s linear infinite normal 1s;
@@ -65,7 +61,6 @@
 
     margin-left: -2250px;
     margin-top: -1250px;
-    z-index: 14;
 
     animation: orbit 30s linear infinite normal 1s;
     -moz-animation: orbit 30s linear infinite normal 1s;
@@ -78,7 +73,6 @@
 
     margin-left: -2500px;
     margin-top: -1500px;
-    z-index: 15;
 
     animation: orbit 35s linear infinite normal 1s;
     -moz-animation: orbit 35s linear infinite normal 1s;
@@ -91,7 +85,6 @@
 
     margin-left: -2750px;
     margin-top: -1750px;
-    z-index: 16;
 
     animation: orbit 40s linear infinite normal 1s;
     -moz-animation: orbit 40s linear infinite normal 1s;
@@ -104,7 +97,6 @@
 
     margin-left: -3000px;
     margin-top: -2000px;
-    z-index: 17;
 
     animation: orbit 45s linear infinite normal 1s;
     -moz-animation: orbit 45s linear infinite normal 1s;
@@ -117,7 +109,6 @@
 
     margin-left: -3250px;
     margin-top: -2250px;
-    z-index: 18;
 
     animation: orbit 50s linear infinite normal 1s;
     -moz-animation: orbit 50s linear infinite normal 1s;
