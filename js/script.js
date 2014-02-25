@@ -4,24 +4,25 @@
  *
  */
 const G = 6.67e-11; //gravitational constant
-const AU = 149597871; //in km
 
 var sun = {
     diameter: 1391000,
     radius: (this.diameter/2),
-    mass: 1.989e30
+    mass: 0
 }
 
-/* parameters are ratios of the sun's dimensions */
-function Planet(diameter, mass, distance) {
+/* parameters are ratios of the sun's dimensions
+*  Using IAU (International Astronomical Units) when applicable
+*  Mass is measured in Solar Mass of the */
+function Planet(diameter, mass, distance, revolution, rotation) {
     this.diameter = (sun.diameter/diameter);
-    this.mass = (sun.mass/mass);
-    this.distance = (AU*distance);
+    this.mass = mass;
+    this.distance = distance;
+    this.revolution = revolution;
+    this.rotation = rotation;
 
     var radius = (this.diameter/2);
-    var gravForce = function(Planet) {
-
-    }
+    var gravForce = ((G * this.mass * sun.mass)/(distance^2));
 };
 
 var mercury = new Planet();
@@ -34,8 +35,4 @@ var uranus = new Planet();
 var neptune = new Planet();
 var pluto = new Planet();
 
-var planetList = [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune, pluto];
-
-var gravForce = function(planet1, planet2) {
-
-}
+var planetArray = [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune, pluto];
