@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/orbit.css" />
     <link rel="stylesheet" href="css/sidenav.css" />
     <link rel="script" href="js/script.js" />
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/sidenavScript.js"></script>
 
     <style>
         body{
@@ -21,7 +24,7 @@
 <body>
     <div id="side-navbar">
         <ul id="planets-list">
-            <li class="planet-text">
+            <li class="planet-text" id="sunText">
                 <a>SUN</a>
             </li>
             <li class="planet-text">
@@ -54,6 +57,38 @@
         </ul>
     </div>
     <div id="solarsystem">
+        <ul id="planetInfo">
+            <li>
+                <p id="sunInfo" class="infoText">Sun: 0 km/h</p>
+            </li>
+            <li>
+                <p id="mercuryInfo" class="infoText">Mercury: 0 km/h</p>
+            </li>
+            <li>
+                <p id="venusInfo" class="infoText">Venus: 0 km/h</p>
+            </li>
+            <li>
+                <p id="earthInfo" class="infoText">Earth: 0 km/h</p>
+            </li>
+            <li>
+                <p id="marsInfo" class="infoText">Mars: 0 km/h</p>
+            </li>
+            <li>
+                <p id="jupiterInfo" class="infoText">Jupiter: 0 km/h</p>
+            </li>
+            <li>
+                <p id="saturnInfo" class="infoText">Saturn: 0 km/h</p>
+            </li>
+            <li>
+                <p id="uranusInfo" class="infoText">Uranus: 0 km/h</p>
+            </li>
+            <li>
+                <p id="neptuneInfo" class="infoText">Neptune: 0 km/h</p>
+            </li>
+            <li>
+                <p id="plutoInfo" class="infoText">Pluto: 0 km/h</p>
+            </li>
+        </ul>
         <div id="sundiv">
             <img id="sun" src="img/Sun.png">
             <div class="orbits" id="mercurydiv">

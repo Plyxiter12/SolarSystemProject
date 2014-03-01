@@ -41,3 +41,11 @@
     transition: all .3s ease;
 }
 
+.infoText {
+    opacity: 0;
+    margin-left: 60%;
+    font-size: 200%;
+    color: ghostwhite;
+    text-align: left;
+    font-family: 'Microma', sans-serif;
+}
