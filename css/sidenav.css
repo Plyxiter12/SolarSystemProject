@@ -42,10 +42,16 @@
 }
 
 .infoText {
+    position: inherit;
+    left: 50%;
     opacity: 0;
-    margin-left: 60%;
+    zoom: 10;
     font-size: 200%;
     color: ghostwhite;
     text-align: left;
     font-family: 'Microma', sans-serif;
+}
+
+#sunInfo {
+    zoom: 10;
 }
