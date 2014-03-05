@@ -1,3 +1,7 @@
+p {
+    font-family: 'Microma', sans-serif;
+}
+
 #solarsystem {
    position: fixed;
    top: 0;
@@ -100,4 +104,22 @@
 
     margin-left: -2px;
     margin-top: -2px;
+}
+
+
+.infoText {
+    position: inherit;
+    left: 50%;
+    opacity: 0;
+    zoom: 10;
+    top: -20px;
+    width: 100%;
+    font-size: 1em;
+    color: ghostwhite;
+    text-align: left;
+    z-index: 50;
+}
+
+#sunInfo {
+    zoom: 10;
 }
