@@ -16,9 +16,6 @@
     margin-left: -1250px;
     margin-top: -1250px;
 
-    animation: orbit 10s linear infinite normal 1s;
-    -moz-animation: orbit 10s linear infinite normal 1s;
-    -webkit-animation: orbit 10s linear infinite normal 1s;
 }
 
 #venusdiv {
@@ -28,9 +25,6 @@
     margin-left: -1500px;
     margin-top: -1500px;
 
-    animation: orbit 15s linear infinite normal 1s;
-    -moz-animation: orbit 15s linear infinite normal 1s;
-    -webkit-animation: orbit 15s linear infinite normal 1s;
 }
 
 #earthdiv {
@@ -39,10 +33,6 @@
 
     margin-left: -1750px;
     margin-top: -1750px;
-
-    animation: orbit 20s linear infinite normal 1s;
-    -moz-animation: orbit 20s linear infinite normal 1s;
-    -webkit-animation: orbit 20s linear infinite normal 1s;
 }
 
 #marsdiv {
@@ -51,10 +41,6 @@
 
     margin-left: -2000px;
     margin-top: -2000px;
-
-    animation: orbit 25s linear infinite normal 1s;
-    -moz-animation: orbit 25s linear infinite normal 1s;
-    -webkit-animation: orbit 25s linear infinite normal 1s;
 }
 
 #jupiterdiv {
@@ -63,10 +49,6 @@
 
     margin-left: -2250px;
     margin-top: -2250px;
-
-    animation: orbit 30s linear infinite normal 1s;
-    -moz-animation: orbit 30s linear infinite normal 1s;
-    -webkit-animation: orbit 30s linear infinite normal 1s;
 }
 
 #saturndiv {
@@ -75,10 +57,6 @@
 
     margin-left: -2500px;
     margin-top: -2500px;
-
-    animation: orbit 35s linear infinite normal 1s;
-    -moz-animation: orbit 35s linear infinite normal 1s;
-    -webkit-animation: orbit 35s linear infinite normal 1s;
 }
 
 #uranusdiv {
@@ -87,10 +65,6 @@
 
     margin-left: -2750px;
     margin-top: -2750px;
-
-    animation: orbit 40s linear infinite normal 1s;
-    -moz-animation: orbit 40s linear infinite normal 1s;
-    -webkit-animation: orbit 40s linear infinite normal 1s;
 }
 
 #neptunediv {
@@ -99,10 +73,6 @@
 
     margin-left: -3000px;
     margin-top: -3000px;
-
-    animation: orbit 45s linear infinite normal 1s;
-    -moz-animation: orbit 45s linear infinite normal 1s;
-    -webkit-animation: orbit 45s linear infinite normal 1s;
 }
 
 #plutodiv {
@@ -111,8 +81,4 @@
 
     margin-left: -3250px;
     margin-top: -3250px;
-
-    animation: orbit 50s linear infinite normal 1s;
-    -moz-animation: orbit 50s linear infinite normal 1s;
-    -webkit-animation: orbit 50s linear infinite normal 1s;
 }
