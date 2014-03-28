@@ -105,16 +105,16 @@
 
 .infoText {
     position: inherit;
-    left: 50%;
+    left: 55%;
+    margin-top: -10px;
     opacity: 0;
     zoom: 1;
     font-family: 'Michroma', sans-serif;
     font-size: 1200%;
-    color: transparent;
+    color: ghostwhite;
     text-align: left;
     z-index: 50;
     cursor: default;
-    text-shadow: 0 0 300px white, 0 0 10px ghostwhite;
 }
 
 #sunInfo {
