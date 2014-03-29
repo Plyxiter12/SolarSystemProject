@@ -1,5 +1,5 @@
-#solarsystem {
-   position: fixed;
+#solar-system {
+   position: absolute;
    top: 0;
    height: 100%;
    width: 100%;
@@ -30,80 +30,53 @@
 
 
 #mercury {
-    height: 7px;
-    width: 7px;
-
     margin-left: -4px;
     margin-top: -4px;
 }
 
 #venus {
-    height: 21px;
-    width: 21px;
-
     margin-left: -10px;
     margin-top: -10px;
 }
 
 #earth {
-    height: 20px;
-    width: 20px;
-
     margin-left: -10px;
     margin-top: -10px;
 }
 
 #mars {
-    height: 11px;
-    width: 11px;
-
     margin-left: -6px;
     margin-top: -6px;
 
 }
 
 #jupiter {
-    height: 222px;
-    width: 222px;
-
     margin-left: -111px;
     margin-top: -111px;
 }
 
 #saturn {
-    height: 388px;
-    width: 388px;
-
     margin-left: -194px;
     margin-top: -194px;
 }
 
 #uranus{
-    height: 80px;
-    width: 80px;
-
     margin-left: -40px;
     margin-top: -40px;
 }
 
 #neptune {
-    height: 78px;
-    width: 78px;
-
     margin-left: -39px;
     margin-top: -39px;
 }
 
 #pluto {
-    height: 4px;
-    width: 4px;
-
     margin-left: -2px;
     margin-top: -2px;
 }
 
 
-.infoText {
+.info-text {
     position: inherit;
     left: 55%;
     margin-top: -10px;
@@ -117,7 +90,7 @@
     cursor: default;
 }
 
-#sunInfo {
+#sun-info {
     position: absolute;
     zoom: .1;
     left: 61%;

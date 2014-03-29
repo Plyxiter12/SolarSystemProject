@@ -8,7 +8,7 @@
     white-space: nowrap;
 }
 
-#mercurydiv {
+#mercury-div {
 
     width: 2500px;
     height: 2500px;
@@ -18,7 +18,7 @@
 
 }
 
-#venusdiv {
+#venus-div {
     width: 3000px;
     height: 3000px;
 
@@ -27,7 +27,7 @@
 
 }
 
-#earthdiv {
+#earth-div {
     width: 3500px;
     height: 3500px;
 
@@ -35,7 +35,7 @@
     margin-top: -1750px;
 }
 
-#marsdiv {
+#mars-div {
     width: 4000px;
     height: 4000px;
 
@@ -43,7 +43,7 @@
     margin-top: -2000px;
 }
 
-#jupiterdiv {
+#jupiter-div {
     width: 4500px;
     height: 4500px;
 
@@ -51,7 +51,7 @@
     margin-top: -2250px;
 }
 
-#saturndiv {
+#saturn-div {
     width: 5000px;
     height: 5000px;
 
@@ -59,7 +59,7 @@
     margin-top: -2500px;
 }
 
-#uranusdiv {
+#uranus-div {
     width: 5500px;
     height: 5500px;
 
@@ -67,7 +67,7 @@
     margin-top: -2750px;
 }
 
-#neptunediv {
+#neptune-div {
     width: 6000px;
     height: 6000px;
 
@@ -75,7 +75,7 @@
     margin-top: -3000px;
 }
 
-#plutodiv {
+#pluto-div {
     width: 6500px;
     height: 6500px;
 

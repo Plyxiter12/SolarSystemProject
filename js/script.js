@@ -58,10 +58,27 @@ window.onload = function() {
         saturnImg = document.getElementById("saturn"),
         uranusImg = document.getElementById("uranus"),
         neptuneImg = document.getElementById("neptune"),
-        plutoImg = document.getElementById("pluto");
+        plutoImg = document.getElementById("pluto"),
+        sunImg = document.getElementById("sun");
 
     var planetImgArray = [mercuryImg, venusImg, earthImg, marsImg, jupiterImg, saturnImg, uranusImg, neptuneImg, plutoImg];
 
-    console.log(planetImgArray[5].width);
+    setImgDimensions();
+
+    function setImgDimensions() {
+        for(var i = 0; i < planetImgArray.length; i++){
+            var planetImgDimension = (sunImg.width / planetArray[i].diameter);
+            if(planetImgArray[i] && planetImgArray[i].style) {
+                planetImgArray[i].style.width = round(planetImgDimension, 0) + 'px';
+                planetImgArray[i].style.height = round(planetImgDimension, 0) + 'px';
+                console.log(planetImgArray[i]);
+            }
+        }
+    }
+
+    function round(num, places) {
+        var multiplier = Math.pow(10, places);
+        return Math.round(num * multiplier) / multiplier;
+    }
 
 }
