@@ -63,15 +63,17 @@ window.onload = function() {
 
     var planetImgArray = [mercuryImg, venusImg, earthImg, marsImg, jupiterImg, saturnImg, uranusImg, neptuneImg, plutoImg];
 
-    setImgDimensions();
+    setImgDimensionsandPosition();
 
-    function setImgDimensions() {
+    function setImgDimensionsandPosition() {
         for(var i = 0; i < planetImgArray.length; i++){
             var planetImgDimension = (sunImg.width / planetArray[i].diameter);
             if(planetImgArray[i] && planetImgArray[i].style) {
                 planetImgArray[i].style.width = round(planetImgDimension, 0) + 'px';
                 planetImgArray[i].style.height = round(planetImgDimension, 0) + 'px';
-                console.log(planetImgArray[i]);
+                planetImgArray[i].style.marginLeft = -Math.ceil(planetImgArray[i].height/2) + 'px';
+                planetImgArray[i].style.marginTop = -Math.ceil(planetImgArray[i].height/2) + 'px';
+                console.log(planetImgArray[i].style.width);
             }
         }
     }
