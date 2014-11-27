@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>SolarSystemProject</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/src/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <!-- injector:css -->
+    <link rel="stylesheet" href="/bower_components/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/src/styles/css/main.css">
+    <!-- endinjector -->
+</head>
+<body>
+
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+<div class="header">
+    <span>solar system</span>
+</div>
+<div class="container">
+    <div id="solar-system" data-bind="foreach: planets">
+        <div class="planet">
+            <img data-bind="attr: {src: imgsrc}, style: {width: size, height: size}">
+        </div>
+    </div>
+</div>
+
+<!-- injector:js -->
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/underscore/underscore.js"></script>
+<script src="/bower_components/knockout/dist/knockout.js"></script>
+<script src="/src/scripts/main.js"></script>
+<!-- endinjector -->
+
+</body>
+</html>
