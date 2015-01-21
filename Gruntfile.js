@@ -22,10 +22,6 @@ module.exports = function (grunt) {
 
         // Watches files for changes and runs tasks based on the changed files
         watch: {
-            bower: {
-                files: ['bower.json'],
-                tasks: ['injector']
-            },
             js: {
                 files: ['<%= config.app %>/scripts/**/*.js'],
                 tasks: ['newer:jshint']
@@ -35,12 +31,12 @@ module.exports = function (grunt) {
                 tasks: ['newer:jshint']
             },
             less: {
-                files: ['<%= config.app %>/styles/**/*.less'],
-                tasks: ['newer:less', 'autoprefixer']
+                files: ['<%= config.app %>/styles/*.less'],
+                tasks: ['less', 'autoprefixer']
             }
         },
 
-        // The actual grunt server settings
+        // grunt server settings
         connect: {
             dev: {
                 options: {
@@ -94,8 +90,8 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         cwd: '<%= config.app %>/styles',
-                        src: ['**/*.less'],
-                        dest: '<%= config.app %>/styles/css',
+                        src: ['styles.less'],
+                        dest: '<%= config.app %>/styles',
                         ext: '.css'
                     }
                 ]
@@ -110,9 +106,9 @@ module.exports = function (grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: '<%= config.dist %>/styles/css',
-                    src: '**/*.css',
-                    dest: '<%= config.dist %>/styles/css'
+                    cwd: '<%= config.dist %>/styles',
+                    src: 'styles.css',
+                    dest: '<%= config.dist %>/styles'
                 }]
             },
             app: {
@@ -128,7 +124,7 @@ module.exports = function (grunt) {
         injector: {
             app: {
                 files: {
-                    'src/index.html': ['bower.json','<%= config.app %>/styles/**/*.css','<%= config.app %>/scripts/**/*.js']
+                    'src/index.html': ['bower.json','<%= config.app %>/styles/**/*.css']
                 }
             }
         },
@@ -209,6 +205,29 @@ module.exports = function (grunt) {
         },
 
         copy: {
+            //for copying dependencies into a lib folder
+            app: {
+                files: [{
+                    expand: true,
+                    dot: true,
+                    flatten: true,
+                    cwd: './bower_components',
+                    dest: '<%= config.app %>/lib',
+                    src: [
+                        '**/dist/*.js',
+                        '**/bin/pixi.js',
+                        'underscore/*.js',
+                        '!**/*.debug.js',
+                        '!**/Gruntfile.js',
+                        '!**/src/**/*.js',
+                        '!**/build/**/*.js',
+                        '!**/docs/**/*.js',
+                        '!**/examples/**/*.js',
+                        '!**/tasks/**/*.js',
+                        '!**/trim/**/*.js'
+                    ]
+                }]
+            },
             dist: {
                 files: [{
                     expand: true,
@@ -270,7 +289,6 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'clean:dist',
         'newer:less',
-        'wiredep',
         'newer:autoprefixer',
         'concat:generated',
         'cssmin:generated',

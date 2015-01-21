@@ -1,0 +1,259 @@
+[
+  {
+    "id": 0,
+    "name": "The Sun",
+    "age": "4.6 Billion Years",
+    "type": "Yellow Dwarf (G2V)",
+    "diameter": {
+      "polar": "1,392,684 km",
+      "equitorial": "1,392,684 km"
+    },
+    "circumference": "4,370,005 km",
+    "surfaceTemp": "5500 °C",
+    "mass": "1.9891 x 10^30 kg",
+    "distanceFromSun": {
+      "au": 0,
+      "km": 0
+    },
+    "orbit": {
+      "distance": 0,
+      "period": 0
+    },
+    "revolution": 0,
+    "density": "1.4 g/cm^3",
+    "moons": [],
+    "randomFacts": []
+  },
+  {
+    "id": 1,
+    "name": "Mercury",
+    "age": "4.5 Billion Years",
+    "type": "Planet",
+    "gravity": "3.7 m/s^2",
+    "diameter": {
+      "polar": "4,879 km",
+      "equitorial": "4,879 km"
+    },
+    "circumference": "15,329 km",
+    "surfaceTemp": "-173 to 427°C",
+    "mass": "1.8986 x 10^27",
+    "distanceFromSun": {
+      "au": 0.39,
+      "km": "57,910,000 km"
+    },
+    "orbit": {
+      "distance": {
+        "au": 0.39,
+        "km": "57,910,000 km"
+      },
+      "period": "87.969 Days"
+    },
+    "revolution": 0,
+    "density": "1.4 g/cm^3",
+    "moons": [],
+    "randomFacts": []
+  },
+  {
+    "id": 2,
+    "name": "Venus",
+    "age": "4.5 Billion Years",
+    "type": "Planet",
+    "diameter": {
+      "polar": "4,879 km",
+      "equitorial": "4,879 km"
+    },
+    "circumference": "15,329 km",
+    "surfaceTemp": "-173 to 427°C",
+    "mass": "1.8986 x 10^27",
+    "distanceFromSun": {
+      "au": 0.39,
+      "km": "57,910,000 km"
+    },
+    "orbit": {
+      "distance": {
+        "au": 0.39,
+        "km": "57,910,000 km"
+      },
+      "period": "87.969 Days"
+    },
+    "revolution": 0,
+    "density": "1.4 g/cm^3",
+    "moons": [],
+    "randomFacts": []
+  },
+  {
+    "id": 3,
+    "name": "The Sun",
+    "age": "4.6 Billion Years",
+    "type": "Yellow Dwarf (G2V)",
+    "diameter": {
+      "polar": "1,392,684 km",
+      "equitorial": "1,392,684 km"
+    },
+    "circumference": "4,370,005 km",
+    "surfaceTemp": "5500 °C",
+    "mass": "1.9891 x 10^30 kg",
+    "distanceFromSun": {
+      "au": 0,
+      "km": 0
+    },
+    "orbit": {
+      "distance": 0,
+      "period": 0
+    },
+    "revolution": 0,
+    "density": "1.4 g/cm^3",
+    "moons": [],
+    "randomFacts": []
+  },
+  {
+    "id": 4,
+    "name": "The Sun",
+    "age": "4.6 Billion Years",
+    "type": "Yellow Dwarf (G2V)",
+    "diameter": {
+      "polar": "1,392,684 km",
+      "equitorial": "1,392,684 km"
+    },
+    "circumference": "4,370,005 km",
+    "surfaceTemp": "5500 °C",
+    "mass": "1.9891 x 10^30 kg",
+    "distanceFromSun": {
+      "au": 0,
+      "km": 0
+    },
+    "orbit": {
+      "distance": 0,
+      "period": 0
+    },
+    "revolution": 0,
+    "density": "1.4 g/cm^3",
+    "moons": [],
+    "randomFacts": []
+  },
+  {
+    "id": 5,
+    "name": "The Sun",
+    "age": "4.6 Billion Years",
+    "type": "Yellow Dwarf (G2V)",
+    "diameter": {
+      "polar": "1,392,684 km",
+      "equitorial": "1,392,684 km"
+    },
+    "circumference": "4,370,005 km",
+    "surfaceTemp": "5500 °C",
+    "mass": "1.9891 x 10^30 kg",
+    "distanceFromSun": {
+      "au": 0,
+      "km": 0
+    },
+    "orbit": {
+      "distance": 0,
+      "period": 0
+    },
+    "revolution": 0,
+    "density": "1.4 g/cm^3",
+    "moons": [],
+    "randomFacts": []
+  },
+  {
+    "id": 6,
+    "name": "The Sun",
+    "age": "4.6 Billion Years",
+    "type": "Yellow Dwarf (G2V)",
+    "diameter": {
+      "polar": "1,392,684 km",
+      "equitorial": "1,392,684 km"
+    },
+    "circumference": "4,370,005 km",
+    "surfaceTemp": "5500 °C",
+    "mass": "1.9891 x 10^30 kg",
+    "distanceFromSun": {
+      "au": 0,
+      "km": 0
+    },
+    "orbit": {
+      "distance": 0,
+      "period": 0
+    },
+    "revolution": 0,
+    "density": "1.4 g/cm^3",
+    "moons": [],
+    "randomFacts": []
+  },
+  {
+    "id": 7,
+    "name": "The Sun",
+    "age": "4.6 Billion Years",
+    "type": "Yellow Dwarf (G2V)",
+    "diameter": {
+      "polar": "1,392,684 km",
+      "equitorial": "1,392,684 km"
+    },
+    "circumference": "4,370,005 km",
+    "surfaceTemp": "5500 °C",
+    "mass": "1.9891 x 10^30 kg",
+    "distanceFromSun": {
+      "au": 0,
+      "km": 0
+    },
+    "orbit": {
+      "distance": 0,
+      "period": 0
+    },
+    "revolution": 0,
+    "density": "1.4 g/cm^3",
+    "moons": [],
+    "randomFacts": []
+  },
+  {
+    "id": 8,
+    "name": "The Sun",
+    "age": "4.6 Billion Years",
+    "type": "Yellow Dwarf (G2V)",
+    "diameter": {
+      "polar": "1,392,684 km",
+      "equitorial": "1,392,684 km"
+    },
+    "circumference": "4,370,005 km",
+    "surfaceTemp": "5500 °C",
+    "mass": "1.9891 x 10^30 kg",
+    "distanceFromSun": {
+      "au": 0,
+      "km": 0
+    },
+    "orbit": {
+      "distance": 0,
+      "period": 0
+    },
+    "revolution": 0,
+    "density": "1.4 g/cm^3",
+    "moons": [],
+    "randomFacts": []
+  },
+  {
+    "id": 9,
+    "name": "The Sun",
+    "age": "4.6 Billion Years",
+    "type": "Yellow Dwarf (G2V)",
+    "diameter": {
+      "polar": "1,392,684 km",
+      "equitorial": "1,392,684 km"
+    },
+    "circumference": "4,370,005 km",
+    "surfaceTemp": "5500 °C",
+    "mass": "1.9891 x 10^30 kg",
+    "distanceFromSun": {
+      "au": 0,
+      "km": 0
+    },
+    "orbit": {
+      "distance": 0,
+      "period": 0
+    },
+    "revolution": 0,
+    "density": "1.4 g/cm^3",
+    "moons": [],
+    "randomFacts": []
+  }
+]

@@ -1,1 +1,13 @@
-{"name":"solarsystemproject","private":true,"dependencies":{"jquery":"~1.11.1","fontawesome":"*","underscore":"*","knockout":"*"}}
+{
+    "name": "solarsystemproject",
+    "private": true,
+    "dependencies": {
+        "jquery": "~1.11.1",
+        "fontawesome": "*",
+        "underscore": "*",
+        "knockout": "*",
+        "knockout-amd-helpers": "*",
+        "requirejs": "*",
+        "pixi.js": "*"
+    }
+}

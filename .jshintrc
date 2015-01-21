@@ -1,4 +1,7 @@
 {
+  "globals": {
+    "define": false
+  },
   "node": true,
   "browser": true,
   "esnext": true,

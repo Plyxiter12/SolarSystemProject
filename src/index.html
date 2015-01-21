@@ -8,7 +8,7 @@
     <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <!-- injector:css -->
     <link rel="stylesheet" href="/bower_components/fontawesome/css/font-awesome.css">
-    <link rel="stylesheet" href="/src/styles/css/main.css">
+    <link rel="stylesheet" href="/src/styles/styles.css">
     <!-- endinjector -->
 </head>
 <body>
@@ -18,24 +18,13 @@
     your browser</a> to improve your experience.</p>
 <![endif]-->
 
-
 <div class="header">
     <span>solar system</span>
 </div>
-<div class="container">
-    <div id="solar-system" data-bind="foreach: planets">
-        <div class="planet">
-            <img data-bind="attr: {id: name, src: imgsrc}">
-        </div>
-    </div>
+<div class="solar-system-canvas">
 </div>
 
-<!-- injector:js -->
-<script src="/bower_components/jquery/dist/jquery.js"></script>
-<script src="/bower_components/underscore/underscore.js"></script>
-<script src="/bower_components/knockout/dist/knockout.js"></script>
-<script src="/src/scripts/main.js"></script>
-<!-- endinjector -->
+<script data-main="scripts/main.js" src="lib/require.js"></script>
 
 </body>
 </html>
